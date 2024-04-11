@@ -1,8 +1,12 @@
 import MacroCrash
 
-let a = 17
-let b = 25
+@QuickCon
+class A {
+    
+}
 
-let (result, code) = #stringify(a + b)
 
-print("The value \(result) was produced by the code \"\(code)\"")
+// Comment the following code to make build success
+class B: A {
+    
+}
